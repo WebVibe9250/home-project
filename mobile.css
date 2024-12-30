@@ -1,0 +1,164 @@
+
+
+.bar {
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 38px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.bar {
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Mobile Navigation Menu */
+
+
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex; /* Show the toggle button on mobile */
+        position: fixed;
+        top: 20px;
+        right: 4px;
+        z-index: 1100;
+    }
+  
+    .mobile-menu {
+        display: none; 
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100vh;
+        z-index: 1000;
+        padding-top: 60px;
+    }
+    .mobile-menu ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    .mobile-menu li {
+        margin: 20px 0;
+    }
+    
+    .mobile-menu a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-bottom: 19px;
+        text-align: center;
+        flex-flow: wrap;
+        display: flex;
+        justify-content: center;
+
+    }
+    .heading-parent{
+        gap: 0px;
+
+    }
+    .footer-parent{
+        flex-flow: wrap;
+
+    }
+    .quik{
+        margin-bottom: 26px;
+    }
+    .form-content5 {
+        display: block;
+    }
+    .form-parent{
+        flex-direction: column;
+    }
+    .parent-blog{
+        gap: 10px;
+        flex-flow: wrap;
+    }
+    .parent-of-nf{
+        flex-direction: column;
+    }
+    .carousel-slide{
+        flex-direction: column;
+        padding: 0;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .container-cards2{
+        /* flex-direction: column; */
+        flex-flow: wrap;
+    }
+    .heading-parent{
+        flex-direction: column;
+    }
+    .heading h1{
+        font-size: 29px;
+    }
+    .banner{
+        /* flex-direction: column; */
+        /* padding: 0 25px; */
+        flex-direction: column-reverse;
+    }
+    .card5{
+        width: 100%;
+    }
+    .navbar2{
+        height: 600px;
+    }
+    .parent-container{
+        justify-content: start;
+    }
+    .child2{
+        padding-left: 2px;
+        gap: 8px;
+
+    }
+    .img-div{
+        padding: 0 5px;
+    }
+    .butoons{
+        top:500px;
+    }
+    .model img{
+        width: 100%;
+        height: auto;
+    }
+    .carousel-heading4 h1{
+        font-size: 60px;
+    }
+    .navb{
+        width: 100%;
+    }
+    .navbar2{
+        width: 100%;
+    }
+    .card-container{
+        padding: 0 5px;
+    }
+    .rating2{
+        position: static;
+        font-size: 8px;
+
+    }
+    
+}
