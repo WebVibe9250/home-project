@@ -119,7 +119,7 @@ header {
 
     display: flex;
     background-color: #eceff3;
-    flex-flow: wrap;
+    /* flex-flow: wrap; */
 
 }
 
@@ -241,8 +241,8 @@ header {
 .heading-parent {
 
     display: flex;
-    gap: 235px;
-    flex-flow: wrap;
+    gap: 50px;
+    /* flex-flow: wrap; */
 }
 
 .heading b {
@@ -1266,7 +1266,7 @@ button:hover {
     display: flex;
     gap: 40px;
     width: 100%;
-    flex-flow: wrap;
+    /* flex-flow: wrap; */
   }
 
 
