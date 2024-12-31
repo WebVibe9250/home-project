@@ -33,6 +33,7 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #eceff3;
+    flex-flow: wrap;
 
 
 }
@@ -738,7 +739,7 @@ body {
   }
   .carousel-heading h1{
     color: #3c3e42;
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: 2px;
 
 
@@ -1370,7 +1371,7 @@ button:hover {
     background-color: #e8edf0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 50px;
+    /* padding: 50px; */
 
   }
   .form-content5 input{
