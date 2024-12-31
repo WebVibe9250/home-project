@@ -119,6 +119,7 @@ header {
 
     display: flex;
     background-color: #eceff3;
+    flex-flow: wrap;
 
 }
 
@@ -176,11 +177,11 @@ header {
 
 }
 
-.heading h4 {
+.heading p {
     color: #76797d;
     text-align: left;
     /* padding-left: 25px; */
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 20px;
     line-height: 2;
 
@@ -240,7 +241,8 @@ header {
 .heading-parent {
 
     display: flex;
-    gap: 200px;
+    gap: 235px;
+    flex-flow: wrap;
 }
 
 .heading b {
@@ -800,7 +802,7 @@ body {
     padding: 10px 15px;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 10px; 
+    font-size: 8px; 
 
     display: inline-block;
 
@@ -1009,12 +1011,15 @@ button:hover {
 .carousel-heading4 h5{
   color: #a92953;
   letter-spacing: 4px;
-  font-size: 25px;
+  font-size: 15px;
+  padding-left: 5px;
 }
 .carousel-heading4   h1{
   color: #3c3e42;
-  font-size: 70px;
+  font-size: 45px;
   letter-spacing: 2px;
+  padding-left: 5px;
+  
 
 
 }
@@ -1120,11 +1125,9 @@ button:hover {
   display: flex;
   gap: 40px;
 }
-.nav-font{
+.parent-of-nf{
   padding: 0 45px;
-  border-bottom: 1px solid #dce1e4;
-  padding-bottom: 45px;
-  margin-top: 35px;
+
 
 }
 
@@ -1184,6 +1187,7 @@ button:hover {
     justify-content: space-evenly;
     margin-top: 50px;
     padding-bottom: 30px;
+    flex-flow: wrap;
   }
   .card5 {
     width: 300px;
@@ -1262,6 +1266,7 @@ button:hover {
     display: flex;
     gap: 40px;
     width: 100%;
+    flex-flow: wrap;
   }
 
 
@@ -1365,7 +1370,7 @@ button:hover {
 
   .form {
     width: 100%;
-    height: 650px;
+    height: 680px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #e8edf0;
@@ -1464,6 +1469,7 @@ button:hover {
     border-bottom: 1px solid #dce1e4;
     padding-bottom: 35px;
     margin-top: 45px;
+    flex-flow: wrap;
 
   }
   .quik{

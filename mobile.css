@@ -144,7 +144,7 @@
         height: auto;
     }
     .carousel-heading4 h1{
-        font-size: 60px;
+        font-size: 40px;
     }
     .navb{
         width: 100%;
@@ -162,6 +162,13 @@
     }
     .carousel-heading h1{
         font-size: 30px;
+    }
+    .rating{
+        position: absolute;
+        top: 77px;
+        right: 44px;
+        font-size: 8px;
+
     }
     
     
