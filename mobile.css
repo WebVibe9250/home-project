@@ -37,7 +37,7 @@
         display: flex; /* Show the toggle button on mobile */
         position: fixed;
         top: 20px;
-        right: 4px;
+        right: 25px;
         z-index: 1100;
     }
   
@@ -131,6 +131,7 @@
     .child2{
         padding-left: 2px;
         gap: 8px;
+        width: 197px;
 
     }
     .img-div{
@@ -148,6 +149,7 @@
     }
     .navb{
         width: 100%;
+        padding: 40px 124px;
     }
     .navbar2{
         width: 100%;
