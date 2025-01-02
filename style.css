@@ -69,6 +69,11 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
+.shop-button img{
+  width: 30px;
+  height: 30px;
+
+}
 
 .shop-button:hover {
     /* background-color: #333;
