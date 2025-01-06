@@ -1292,6 +1292,7 @@ button:hover {
     display: flex;
     gap: 40px;
     width: 100%;
+    padding: 0 6%;
     /* flex-flow: wrap; */
   }
 
@@ -1315,7 +1316,7 @@ button:hover {
   }
   .card4 {
     width: 100%;
-    height: 680px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
@@ -1396,7 +1397,7 @@ button:hover {
 
   .form {
     width: 100%;
-    height: 680px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     background-color: #e8edf0;
@@ -1519,7 +1520,41 @@ button:hover {
   }
   .quik h3{
    color: #a92953;
+   /* position: relative;  */
   }
+  .quik span b{
+    /* color: #a92953; */
+    /* position: relative;  */
+    position: relative; 
+    padding-bottom: 5px; 
+    color: #46484c;
+    transition: 0.5 ease all;
+   }
+  .quik span b::after{
+    content: '';
+    width: 0;
+    height: 2px; /* Border thickness */
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Position at the bottom of the h2 */
+    background-color: red; /* Border color */
+    transition: width 0.5s ease; /* Correct transition syntax */
+    
+
+  }
+  .quik span b:hover::after {
+    width: 100%; /* Expand the underline to 100% width on hover */
+    color: #a12e55;
+
+}
+.quik span b:hover{
+  color: #a92953;
+  transition: width 0.9s ease; /* Correct transition syntax */
+
+
+
+}
+
 
 
 
@@ -1527,10 +1562,41 @@ button:hover {
   /* section 12 last heading  */
 
 
-  .last-heading{
+  .last-heading h2 {
     text-align: center;
     color: #515356;
     padding: 25px;
-  }
+    position: relative; /* Ensure relative positioning for the child ::after element */
+}
+
+.last-heading b {
+    position: relative; 
+    padding-bottom: 5px; 
+
+}
+
+.last-heading b::after {
+    content: '';
+    width: 0;
+    height: 2px; /* Border thickness */
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Position at the bottom of the h2 */
+    background-color: red; /* Border color */
+    transition: width 0.5s ease; /* Correct transition syntax */
+}
+
+.last-heading b:hover::after {
+    width: 100%; /* Expand the underline to 100% width on hover */
+    
+}
+.last-heading b:hover{
+  color: #a92953;
+  transition: width 0.9s ease; /* Correct transition syntax */
+
+
+
+}
+  
 
   
