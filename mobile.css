@@ -123,14 +123,12 @@
     }
     .banner-parent{
 
-        max-height: 1230px;
+        max-height: fit-content;
     }
     .card5{
         width: 100%;
     }
-    .navbar2{
-        height: 600px;
-    }
+ 
     .parent-container{
         justify-content: start;
     }
@@ -168,7 +166,7 @@
     }
     .navb{
         width: 100%;
-        padding: 40px 124px;
+        padding: 40px 94px;
     }
     .navbar2{
         width: 100%;
