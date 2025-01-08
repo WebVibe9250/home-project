@@ -19,12 +19,37 @@
     cursor: pointer;
 
 }
+.toggle-content {
+    display: none;
+
+}
+.toggle-content img{
+    display: none;
+
+}
+.toggle-content p{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #3c3e41;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
 
 .bar {
     height: 5px;
     background-color: #333;
     border-radius: 5px;
     width: 100%;
+}
+.social-icons3{
+    display: none;
+}
+.find3{
+    display: none;
 }
 
 /* Mobile Navigation Menu */
@@ -40,11 +65,67 @@
         right: 25px;
         z-index: 1100;
     }
+    .toggle-content{
+        display: block;
+    
+    }
+    .toggle-content img{
+        display: block;
+     
+
+  
+
+    
+    }
+    .social-icons3{
+        display: inline;
+    }
+    .find3{
+        display: inline;
+        position: relative;
+        bottom: -5%;
+        left: 3%;
+
+    }
+    .find3 h2{
+        font-family: Poppins, sans-serif;
+        color: #1e2125;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 26.6px;
+        letter-spacing: 2px;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+    .social-icons3{
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .social-icons3 a{
+    
+        font-size: 20px;
+        color: white; 
+        width: 50px;
+        text-decoration: none;
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 10%; 
+        transition: all 0.4s ease-in-out;
+    
+    }
+    .social-icons3 a:hover{
+    
+        background: linear-gradient(90deg, #af16a3, #feb47b); /* Gradient colors */
+        color: white; 
+        transform: scale(1.1); 
+      }
+    
 
 
     .mobile-menu {
         display: none; 
-        background-color: #333;
+        background-color: #e6ebef;
         position: fixed;
         top: 0;
         left: 0;
@@ -64,14 +145,20 @@
     
     .mobile-menu a {
         text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: 28px;
+        color: #3c3e41;
         text-transform: uppercase;
         margin-bottom: 19px;
         text-align: center;
         flex-flow: wrap;
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 28px;
+        letter-spacing: 2px;
+
 
     }
     .heading-parent{
@@ -134,7 +221,7 @@
     }
     .child2{
         padding-left: 5px;
-        gap: 8px;
+        gap: 10px;
         /* width: 197px; */
 
     }
@@ -144,11 +231,11 @@
     }
     .shop-button2{
         font-size: 10px;
-        padding: 6px 10px;
+        padding: 15px 10px;
     }
     .shop-button{
         font-size: 10px;
-        padding: 6px 10px;
+        padding: 15px 10px;
     }
 
     .img-div{
@@ -173,6 +260,7 @@
     }
     .card-container{
         padding: 0 5px;
+        flex-flow: wrap;
     }
     .rating2{
         position: static;
