@@ -302,7 +302,7 @@ header {
 
     border-bottom: 1px solid #dce1e4;
     padding-bottom: 35px;
-    max-height: fit-content;
+    max-height: 600px;
     max-width: 1320px;
     margin: auto;
 
